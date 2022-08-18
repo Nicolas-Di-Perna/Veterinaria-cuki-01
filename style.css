@@ -1,0 +1,143 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+body{
+    background-image:url(img/fondo11.jpg) ;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+  background-color: rgba(193, 200, 206, 0.74);
+  color: #131010;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid
+ }
+
+.logotipo-img{
+
+}
+
+header h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #3d3a8300;
+  padding: 1rem 1rem;
+  color: #4f9cdb;
+}
+
+nav section {
+  text-align: center;
+}
+
+nav section a {
+  padding: 0.75rem 1rem;
+  background-color: rgb(166, 182, 185);
+  font-size: 1.5rem;
+  margin: 0 25px;
+  cursor: pointer;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+section article {
+  transition: box-shadow 0.3s ease;
+  background-color: rgb(233, 229, 229);
+  margin: 1rem 1rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  border-color: #8a82f5;
+  font-size: 1.5rem;
+}
+
+section article h2 {
+  text-align: center;
+}
+article {
+  align-items: center;
+  border: 2px solid rgb(201, 197, 197);
+  border-radius: 5px;
+}
+
+#servicios {
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+}
+
+article table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-spacing: 40px 10px;
+}
+
+article table tr td {
+  border: 2px solid rgb(201, 197, 197);
+  border-radius: 5px;
+  width: 300px;
+  vertical-align: top;
+}
+
+.article-img {
+  width: 200px;
+  height: 150px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.article-img:hover {
+  -webkit-transform: scale(1.8) rotate(0.01deg);
+  transform: scale(1.8) rotate(0.01deg);
+}
+
+.textserv {
+  padding: 0 10px;
+}
+
+.logo-img{
+    width:50px;
+    height: 50px;
+    margin: 0 25px;
+}
+footer {
+    border: 2px solid rgb(201, 197, 197);
+    border-radius: 5px;
+   
+}
+.imagenes{
+    float:left;
+    margin: 0 50px;
+}
+footer div {
+    height: 4rem;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(128, 122, 122);
+
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+
+.text{
+    text-align:center;  
+    color:#fff;
+    font-size: 24px;
+}
+footer a:hover{
+       color: cornflowerblue;
+}
